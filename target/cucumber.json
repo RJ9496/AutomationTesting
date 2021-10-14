@@ -1,0 +1,2715 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8764500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150923900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1920128200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3025664500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:02:34.672Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10116896100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User go to category option",
+        "description": "",
+        "id": "uniform-feature;user-go-to-category-option",
+        "after": [
+          {
+            "result": {
+              "duration": 693009900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 93123300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on catalog  option",
+            "match": {
+              "location": "StepDefination.user_click_on_catalog_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 548279400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User select category",
+            "match": {
+              "location": "StepDefination.user_select_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3010588900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigate to category dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_category_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14703400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288900500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2212103900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3015487600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:02:54.258Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7298726000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User is on category dashboard",
+        "description": "",
+        "id": "uniform-feature;user-is-on-category-dashboard;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 754063100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 89634600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on catalog  option",
+            "match": {
+              "location": "StepDefination.user_click_on_catalog_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 543346000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select category",
+            "match": {
+              "location": "StepDefination.user_select_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3004394700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigate to category dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_category_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1252319100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on add button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330408000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"category name\" and \"meta title tag\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"category name\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"meta title tag\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefination.user_enters_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1119238700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on save button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3018447900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigates the Success message",
+            "match": {
+              "location": "StepDefination.user_navigates_the_Success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13544200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291054300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2197823900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3006861800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:03:17.209Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8080996000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "User is on category dashboard",
+        "description": "",
+        "id": "uniform-feature;user-is-on-category-dashboard;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 908295600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 75829500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on catalog  option",
+            "match": {
+              "location": "StepDefination.user_click_on_catalog_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 580086200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select category",
+            "match": {
+              "location": "StepDefination.user_select_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3013058900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigate to category dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_category_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1179753000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on add button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168826200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"category name\" and \"meta title tag\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"category name\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"meta title tag\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefination.user_enters_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1091478900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on save button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3022920400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigates the Success message",
+            "match": {
+              "location": "StepDefination.user_navigates_the_Success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21556500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 254708000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2153037000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3010133600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:03:40.847Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7921343100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Verify edit button",
+        "description": "",
+        "id": "uniform-feature;verify-edit-button;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 730149700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 76976600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User go to category option",
+            "match": {
+              "location": "StepDefination.user_go_to_category_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78756300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on catalog  option",
+            "match": {
+              "location": "StepDefination.user_click_on_catalog_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 555199600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User select category",
+            "match": {
+              "location": "StepDefination.user_select_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 973018000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click on edit button",
+            "match": {
+              "location": "StepDefination.user_click_on_edit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 149169100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User edits \"99\" and \"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"99\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.user_edits_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 906650400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks on  the save button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3012051700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User navigates the success message",
+            "match": {
+              "location": "StepDefination.user_navigates_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21109000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291176700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2297587000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3021189400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:04:00.695Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7955475900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "User wants to check sorting functionality",
+        "description": "",
+        "id": "uniform-feature;user-wants-to-check-sorting-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 741174100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 167611300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User click on catalog  option",
+            "match": {
+              "location": "StepDefination.user_click_on_catalog_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 565554700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User select category",
+            "match": {
+              "location": "StepDefination.user_select_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3011696500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User navigate to category dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_category_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3515333000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user wants to sort according to category name",
+            "match": {
+              "location": "StepDefination.user_wants_to_sort_according_to_category_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3656932800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user wants to sort according to sort order",
+            "match": {
+              "location": "StepDefination.user_wants_to_sort_according_to_sort_order()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19871200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149664200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2414404500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3019195400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:04:25.945Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7378531900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "User wants to check  delete functionality",
+        "description": "",
+        "id": "uniform-feature;user-wants-to-check--delete-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 772002200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60475300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User click on catalog  option",
+            "match": {
+              "location": "StepDefination.user_click_on_catalog_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 642787300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User select category",
+            "match": {
+              "location": "StepDefination.user_select_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3006898400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User navigate to category dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_category_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3066862600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user selects category",
+            "match": {
+              "location": "StepDefination.user_selects_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3092565400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user deletes the category",
+            "match": {
+              "location": "StepDefination.user_deletes_the_category()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15808600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 343678100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1942521200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3010515300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:04:49.574Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7295054100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "User wants to navigate from category to home",
+        "description": "",
+        "id": "uniform-feature;user-wants-to-navigate-from-category-to-home",
+        "after": [
+          {
+            "result": {
+              "duration": 823518700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55856300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User click on catalog  option",
+            "match": {
+              "location": "StepDefination.user_click_on_catalog_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 609674100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User select category",
+            "match": {
+              "location": "StepDefination.user_select_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3007046300,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User navigate to category dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_category_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3718452500,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User clicks on home button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_home_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6015069000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User navigates to dashboard",
+            "match": {
+              "location": "StepDefination.user_navigates_to_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15898000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 296987400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2295022900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3017097100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:05:16.414Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7596885700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "User wants to rebuild solution of category",
+        "description": "",
+        "id": "uniform-feature;user-wants-to-rebuild-solution-of-category",
+        "after": [
+          {
+            "result": {
+              "duration": 771523300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73464900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User click on catalog  option",
+            "match": {
+              "location": "StepDefination.user_click_on_catalog_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 718991100,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User select category",
+            "match": {
+              "location": "StepDefination.user_select_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3019520500,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User navigate to category dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_category_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4668946400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User clicks on rebuild button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_rebuild_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3020424100,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User navigates success message",
+            "match": {
+              "location": "StepDefination.user_navigates_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9007800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 231202100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2349453000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3008123300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:05:41.913Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9278896400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "User wants to Paginate",
+        "description": "",
+        "id": "uniform-feature;user-wants-to-paginate",
+        "after": [
+          {
+            "result": {
+              "duration": 795206900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70917800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User click on catalog  option",
+            "match": {
+              "location": "StepDefination.user_click_on_catalog_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 678677400,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User select category",
+            "match": {
+              "location": "StepDefination.user_select_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3009211000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User navigate to category dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_category_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3687555700,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User wants to go to next page",
+            "match": {
+              "location": "StepDefination.user_wants_to_go_to_next_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156900,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User is able to navigate to next page",
+            "match": {
+              "location": "StepDefination.user_is_able_to_navigate_to_next_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8263400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188121600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2469415300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3025423600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:06:05.036Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7887907800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "User go to Shopping  option",
+        "description": "",
+        "id": "uniform-feature;user-go-to-shopping--option",
+        "after": [
+          {
+            "result": {
+              "duration": 793539700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3157276100,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "User click on Shopping  option",
+            "match": {
+              "location": "StepDefination.user_click_on_Shopping_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3735122400,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User select Coupons",
+            "match": {
+              "location": "StepDefination.user_select_Coupons()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6016723200,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User navigate to Coupon dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Coupon_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15360600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332592200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2248933700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3007032700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:06:32.324Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8126067000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 93,
+        "name": "User wants to add coupon",
+        "description": "    User go to Shopping  option",
+        "id": "uniform-feature;user-wants-to-add-coupon;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 758349200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3069486600,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "User click on Shopping  option",
+            "match": {
+              "location": "StepDefination.user_click_on_Shopping_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3824863300,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "User select Coupons",
+            "match": {
+              "location": "StepDefination.user_select_Coupons()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3770073700,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "User clicks on Add button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_Add_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34468978500,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "enters the \"rutu9496\",\"rutu33\",\"10\",\"4500\",\"Airbuds\",\"electronic\",\"\",\"\",\"\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rutu9496\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"rutu33\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"4500\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Airbuds\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"electronic\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefination.enters_the(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4489223200,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_save_button1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6030189900,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "user navigates to dashboard getting a success message.",
+            "match": {
+              "location": "StepDefination.user_navigates_to_dashboard_getting_a_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6949200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119985800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2334117100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3020228900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:07:42.469Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7695630900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 95,
+        "name": "User wants to delete coupon",
+        "description": "",
+        "id": "uniform-feature;user-wants-to-delete-coupon",
+        "after": [
+          {
+            "result": {
+              "duration": 826105200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3059346000,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "User click on Shopping  option",
+            "match": {
+              "location": "StepDefination.user_click_on_Shopping_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4211457200,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "User select Coupons",
+            "match": {
+              "location": "StepDefination.user_select_Coupons()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3095697400,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "User selects coupons to delete",
+            "match": {
+              "location": "StepDefination.user_selects_coupons_to_delete()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3132942800,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "User clicks on delete button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_delete_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3012120000,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "user gets success message and navigates to dashboard.",
+            "match": {
+              "location": "StepDefination.user_gets_success_message_and_navigates_to_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16800500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 254231100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2186630500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3014026900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:08:12.986Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7339831200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 102,
+        "name": "User wants to navigate from coupon to Home.",
+        "description": "",
+        "id": "uniform-feature;user-wants-to-navigate-from-coupon-to-home.",
+        "after": [
+          {
+            "result": {
+              "duration": 805096300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3064746200,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "User click on Shopping  option",
+            "match": {
+              "location": "StepDefination.user_click_on_Shopping_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4266106500,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "User select Coupons",
+            "match": {
+              "location": "StepDefination.user_select_Coupons()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3931282200,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "User clicks on Home button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_Home_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6039135100,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "User navigates to dashboard.",
+            "match": {
+              "location": "StepDefination.user_navigates_to_dashboard1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10297200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 252025700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2163025600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3007421600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:08:43.906Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7502369500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 108,
+        "name": "User wants to check sort functionality",
+        "description": "",
+        "id": "uniform-feature;user-wants-to-check-sort-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 759697800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3073106200,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "User click on Shopping  option",
+            "match": {
+              "location": "StepDefination.user_click_on_Shopping_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4255950600,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "User select Coupons",
+            "match": {
+              "location": "StepDefination.user_select_Coupons()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3603789000,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "User sorts according to Coupon name",
+            "match": {
+              "location": "StepDefination.user_sorts_according_to_Coupon_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3623640800,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "User sorts according to Code",
+            "match": {
+              "location": "StepDefination.user_sorts_according_to_Code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3970842700,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "User sorts according to Discount",
+            "match": {
+              "location": "StepDefination.user_sorts_according_to_Discount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3564863800,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "User sorts according to Status",
+            "match": {
+              "location": "StepDefination.user_sorts_according_to_Status()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3619011000,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "User sorts according to Date_start",
+            "match": {
+              "location": "StepDefination.user_sorts_according_to_Date_start()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3635299000,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "User sorts according to Date_end",
+            "match": {
+              "location": "StepDefination.user_sorts_according_to_Date_end()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10559600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198968700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2366874800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3007053200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:09:26.950Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8259954500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 118,
+        "name": "Edit History(Bug)",
+        "description": "",
+        "id": "uniform-feature;edit-history(bug)",
+        "after": [
+          {
+            "result": {
+              "duration": 806023000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3057247100,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "User click on Shopping  option",
+            "match": {
+              "location": "StepDefination.user_click_on_Shopping_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4604828200,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "User select Coupons",
+            "match": {
+              "location": "StepDefination.user_select_Coupons()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3630638100,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "User go to edit option",
+            "match": {
+              "location": "StepDefination.user_go_to_edit_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3099547800,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "User go to edit History",
+            "match": {
+              "location": "StepDefination.user_go_to_edit_History()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9444200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Uniform Application",
+            "match": {
+              "location": "StepDefination.user_is_on_Uniform_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177105800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Username\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2729925400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3023101900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Dashboard",
+            "match": {
+              "location": "StepDefination.user_navigate_to_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:09:55.997Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9294530900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.initialization()"
+            }
+          }
+        ],
+        "line": 134,
+        "name": "edit Functionality",
+        "description": "",
+        "id": "uniform-feature;edit-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 686183600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3079067400,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "User click on Shopping  option",
+            "match": {
+              "location": "StepDefination.user_click_on_Shopping_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3565090600,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "User select Coupons",
+            "match": {
+              "location": "StepDefination.user_select_Coupons()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3111642900,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "User clicks on checkbox",
+            "match": {
+              "location": "StepDefination.user_clicks_on_checkbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3679944500,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "User clicks on edit option",
+            "match": {
+              "location": "StepDefination.user_clicks_on_edit_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7712692500,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "user edits \"Offer\" \"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Offer\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefination.user_edits(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 643698100,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "User clicks on save button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Uniform feature",
+    "description": "",
+    "id": "uniform-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Signup.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="478.973852">
+    <testcase classname="Uniform feature" name="User go to category option" time="19.573171">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on catalog  option.........................................passed
+Then User select category...................................................passed
+Then User navigate to category dashboard....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User is on category dashboard" time="22.943124">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on catalog  option.........................................passed
+Then User select category...................................................passed
+Then User navigate to category dashboard....................................passed
+And User clicks on add button...............................................passed
+Then User enters "category name" and "meta title tag".......................passed
+And User clicks on save button..............................................passed
+Then User navigates the Success message.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User is on category dashboard 2" time="23.632679">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on catalog  option.........................................passed
+Then User select category...................................................passed
+Then User navigate to category dashboard....................................passed
+And User clicks on add button...............................................passed
+Then User enters "category name" and "meta title tag".......................passed
+And User clicks on save button..............................................passed
+Then User navigates the Success message.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Verify edit button" time="19.843924">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User go to category option............................................passed
+Then User click on catalog  option..........................................passed
+Then User select category...................................................passed
+Then User click on edit button..............................................passed
+Then User edits "99" and "12"...............................................passed
+And User clicks on  the save button.........................................passed
+Then User navigates the success message.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User wants to check sorting functionality" time="25.246">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on catalog  option.........................................passed
+Then User select category...................................................passed
+Then User navigate to category dashboard....................................passed
+Then user wants to sort according to category name..........................passed
+Then user wants to sort according to sort order.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User wants to check  delete functionality" time="23.624552">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on catalog  option.........................................passed
+Then User select category...................................................passed
+Then User navigate to category dashboard....................................passed
+Then user selects category..................................................passed
+Then user deletes the category..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User wants to navigate from category to home" time="26.838245">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on catalog  option.........................................passed
+Then User select category...................................................passed
+Then User navigate to category dashboard....................................passed
+And User clicks on home button..............................................passed
+Then User navigates to dashboard............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User wants to rebuild solution of category" time="25.495572">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on catalog  option.........................................passed
+Then User select category...................................................passed
+Then User navigate to category dashboard....................................passed
+And User clicks on rebuild button...........................................passed
+Then User navigates success message.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User wants to Paginate" time="23.119188">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on catalog  option.........................................passed
+Then User select category...................................................passed
+Then User navigate to category dashboard....................................passed
+And User wants to go to next page...........................................passed
+Then User is able to navigate to next page..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User go to Shopping  option" time="27.282651">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on Shopping  option........................................passed
+Then User select Coupons....................................................passed
+Then User navigate to Coupon dashboard......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User wants to add coupon" time="70.142543">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on Shopping  option........................................passed
+Then User select Coupons....................................................passed
+Then User clicks on Add button..............................................passed
+And enters the "rutu9496","rutu33","10","4500","Airbuds","electronic","","","","".passed
+Then user clicks on save button.............................................passed
+Then user navigates to dashboard getting a success message..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User wants to delete coupon" time="30.515384">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on Shopping  option........................................passed
+Then User select Coupons....................................................passed
+Then User selects coupons to delete.........................................passed
+Then User clicks on delete button...........................................passed
+Then user gets success message and navigates to dashboard...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User wants to navigate from coupon to Home." time="30.918617">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on Shopping  option........................................passed
+Then User select Coupons....................................................passed
+Then User clicks on Home button.............................................passed
+Then User navigates to dashboard............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="User wants to check sort functionality" time="43.042312">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on Shopping  option........................................passed
+Then User select Coupons....................................................passed
+Then User sorts according to Coupon name....................................passed
+Then User sorts according to Code...........................................passed
+Then User sorts according to Discount.......................................passed
+Then User sorts according to Status.........................................passed
+Then User sorts according to Date_start.....................................passed
+Then User sorts according to Date_end.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="Edit History(Bug)" time="29.042443">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on Shopping  option........................................passed
+Then User select Coupons....................................................passed
+And User go to edit option..................................................passed
+Then User go to edit History................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uniform feature" name="edit Functionality" time="37.713447">
+        <system-out><![CDATA[Given User is on Uniform Application........................................passed
+When User enter "Username" and "Password"...................................passed
+And Click on Login button...................................................passed
+Then User navigate to Dashboard.............................................passed
+Given User click on Shopping  option........................................passed
+Then User select Coupons....................................................passed
+Then User clicks on checkbox................................................passed
+Then User clicks on edit option.............................................passed
+And user edits "Offer" "12".................................................passed
+Then User clicks on save button.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
